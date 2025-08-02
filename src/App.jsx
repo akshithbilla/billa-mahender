@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import ProfileSection from './components/ProfileSection';
-//import DocumentsSection from './components/DocumentsSection';
+import DocumentsSection from './components/DocumentsSection';
 import Footer from './components/Footer';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <main className="container mx-auto px-4 py-8">
         <ProfileSection />
-         
+         <DocumentsSection />
       </main>
       <Footer />
     </div>
